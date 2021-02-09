@@ -1,0 +1,42 @@
+h1 {
+    color: brown;
+}
+
+*{
+    border: solid;
+}
+
+.header{
+   background-color: rgb(216, 216, 25); 
+   display: flex;
+   justify-content: space-between;
+}
+
+.link{
+  background-color: blueviolet;  
+}
+
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+.play{
+    background-color: chartreuse;
+}
+.sm{
+    background-color: cyan;
+    justify-content: center;
+    display: flex;
+    justify-content: flex-center
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #DF2323
+}
